@@ -1,0 +1,134 @@
+{
+  "Projects": [
+    {
+      "id": 1,
+      "tenProjects": "Bán đồ điện tử",
+      "mota": "Dự án bàng đồ điện tử , được xây dựng bởi những người yêu thương đồ điện tử",
+      "congnghe": "mySQL, PHP, HTML, CSS, JS",
+      "ngaytao": "2020-12-12",
+      "tacgia": "Le Manh",
+      "lienket": "link o day"
+    },
+    {
+      "id": 2,
+      "tenProjects": "Bán đồ thể thao",
+      "mota": "Dự án bàng đồ điện tử , được xây dựng bởi những người yêu đồ thể thao",
+      "congnghe": "mySQL, PHP, HTML, CSS, JS",
+      "ngaytao": "2020-12-12",
+      "tacgia": "Le Manh",
+      "lienket": "link o day"
+    },
+    {
+      "name": "hi nam",
+      "gallrey": [
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831031/ECMA/is7nx0m0uxlulmxtvx0s.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831032/ECMA/o8tso7vpd8kguqy4epui.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831034/ECMA/i5ahhlmugtrpmxvyyrd1.jpg"
+      ],
+      "id": 3
+    },
+    {
+      "name": "dự án 10",
+      "id": 4
+    },
+    {
+      "name": "dự án mẫu",
+      "gallrey": [],
+      "id": 5
+    },
+    {
+      "name": "hi nam mạnh",
+      "gallrey": [
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831366/ECMA/nxngej33ttzqg4h4fbbu.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831369/ECMA/ejbdzu4iul1s1ejp17t5.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831372/ECMA/qwehak9b4lc4unhtlymp.jpg"
+      ],
+      "id": 6
+    },
+    {
+      "name": "dự án lê mạnh",
+      "mota": "mô tả ",
+      "congnghe": "mô tả ",
+      "ngaytao": "12-1-2022",
+      "gallrey": [
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676861850/ECMA/hhrr7eee8xdxaawmekut.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676861851/ECMA/f4levytiyhgpeeskipkg.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676861854/ECMA/judjrlmb5xcnyjtkqnhz.png"
+      ],
+      "id": 7 ,
+      "categoryProjectId": 2
+      
+    }
+  ],
+  "projects": [
+    {
+      "name": "Dự án bán đồ điện tử",
+      "mota": "Dự án được xây dựng từ khi tôi còn ngồi trên nghế nhà trường, là dự án đầu tiên tôi được bắt tay vào làm. Dự án này là một website hoàn chỉnh và đầy đủ các chức năng và hoàn thiện với mức độ hoàn chỉnh. <br> website được tạo ra để bán đồ dùng điện tử và cũng để cửa hàng kiểm soát sản phẩm của mình dễ hơn thông qua phần chức năng quản trị.",
+      "congnghe": "mySQL, PHP, HTML, CSS,",
+      "ngaytao": "2021-12-12",
+      "tacgia": "Le Manh",
+      "lienket": "link o day",
+      "gallrey": [
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831366/ECMA/nxngej33ttzqg4h4fbbu.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831369/ECMA/ejbdzu4iul1s1ejp17t5.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831372/ECMA/qwehak9b4lc4unhtlymp.jpg"
+      ],
+      "id": 2,
+      "categoryProjectId": 1
+    },
+    {
+      "name": "Dự án bán đồ thể thao",
+      "mota": "Dự án gần đây nhất của tôi, nó được xây dựng để bán các sản phẩm liên quan đến thể thao. Website đã hoàn thiện đầy đủ chức năng hoàn chỉnh nhất",
+      "congnghe": "mySQL, PHP, HTML, CSS, JS, Bootstrap",
+      "ngaytao": "20202-10-22",
+      "tacgia": "Le Manh, Nguyen Quy",
+      "lienket": "link o day",
+      "id": 3,
+      "categoryProjectId": 2
+    },
+    {
+      "name": "dự án 10",
+      "id": 4
+    },
+    {
+      "name": "dự án mẫu",
+      "gallrey": [],
+      "id": 5
+    },
+    {
+      "name": "hi nam mạnh",
+      "gallrey": [
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831366/ECMA/nxngej33ttzqg4h4fbbu.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831369/ECMA/ejbdzu4iul1s1ejp17t5.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831372/ECMA/qwehak9b4lc4unhtlymp.jpg"
+      ],
+      "id": 6
+    },
+    {
+      "name": "dự án lê mạnh",
+      "mota": "mô tả ",
+      "congnghe": "mô tả ",
+      "ngaytao": "12-1-2022",
+      "gallrey": [
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676861850/ECMA/hhrr7eee8xdxaawmekut.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676861851/ECMA/f4levytiyhgpeeskipkg.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676861854/ECMA/judjrlmb5xcnyjtkqnhz.png"
+      ],
+      "categoryProjectId": 3
+    }
+  ],
+  "categoryProjects": [
+    {
+      "id": 1,
+      "name": "Dự án bán đồ điện tử"
+    },
+    {
+      "id": 2,
+      "name": "Dự án bán đồ thể thao"
+    },
+    {
+      "id": 3,
+      "name": "Dự án bán đồ thể áo"
+    }
+  ]
+}
