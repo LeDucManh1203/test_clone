@@ -1,14 +1,14 @@
 import { useEffect, useState } from "../lib";
-const Projects = () => {
 
+
+import ProjectGallery from "../admin/projectGallery";
+const Projects = () => {
   const [category, setCategory] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:3000/categoryProjects`)
+    fetch(`http://localhost:3000/projects`)
       .then((rest) => rest.json())
       .then((data) => setCategory(data));
   }, []);
-
-
 
   return `
   
@@ -34,13 +34,15 @@ const Projects = () => {
         <div class="tab-pane active" id="web-development">
             <div class="ml-auto mr-auto">
                 <div class="row">
-                ${category.map(
-                    (item)=>`
+                ${category.length > 1 ? category.map(
+    (item) => `
                     <div class="col-md-6">
                         <div class="cc-porfolio-image img-raised" data-aos="fade-up"
                             data-aos-anchor-placement="top-bottom">                          
                                 <a href="#/category/${item.id}">                                                 
-                                <figure class="cc-effect"><img src="images/duanmau.jpg" alt="Image" />
+                                <figure class="cc-effect"><img src=""/>${item.avatar ? ProjectGallery({
+      imgs: item.avatar,
+    }) : ''}
                                     <figcaption>                                
                                         <div class="h4">${item.name}</div>
                                         <p>Web Development</p>
@@ -50,7 +52,7 @@ const Projects = () => {
                             </a>
                         </div>
                         </div>
-                        `). join ('')}
+                        `).join('') : ""}
                     
                     
                             

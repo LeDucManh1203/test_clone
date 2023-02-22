@@ -1,44 +1,35 @@
 
-import { useEffect, router } from "../lib";
+import { useEffect, router } from "../../lib";
 // import { projects } from "../../data";
 import axios from "axios";
-const AdminAddCatePage = () => {
+const AdminAddProjectPage = () => {
 
+    // const projects = JSON.parse(localStorage.getItem("projects")) || [];
     useEffect(() => {
         const form = document.getElementById("form-add");
         const projectName = document.getElementById("project-name");
-        const projectMoTa = document.getElementById("project-mota");
-        const projectCongNghe = document.getElementById("project-mota");
-        const projectDate = document.getElementById("project-date");
-        const projectLink = document.getElementById("project-link");
-        const projectTacGia = document.getElementById("project-tacgia");
-
         const productImages = document.getElementById("product-images");
-
+        const productId = document.getElementById("product-id");
         form.addEventListener("submit", async function (e) {
             // Chặn sự kiện reload sau khi submit
             e.preventDefault();
             // thêm phần tử vào mảng projects
             const urls = await uploadFiles(productImages.files);
             const formData = {
+                id: productId.value,
                 name: projectName.value,
-                mota: projectMoTa.value,
-                congnghe: projectCongNghe.value,
-                ngaytao: projectDate.value,
-                tacgia: projectTacGia.value,
-                lienket: projectLink.value,
-                gallery: urls,
+                gallrey: urls,
             }
-           
-            fetch("http://localhost:3000/projects", {
+            // projects.push(formData);
+            fetch("http://localhost:3000/categoryProjects", {
                 method: "POST",
                 headers: {
                     "content-type": "application/json"
                 },
                 body: JSON.stringify(formData),
-            }).then(() => router.navigate("/admin/showprojects"));
+            }).then(() => router.navigate("/admin/projects"));
 
-            
+            // chuyển hướng về trang admin/projects
 
         });
     });
@@ -74,22 +65,14 @@ const AdminAddCatePage = () => {
                     <div class="form-group">
                         <label for="" class="form-label">Tên dự án</label>
                         <input type="text" class="form-control" id="project-name" />
-                        <label for="" class="form-label">Mô tả</label>
-                        <input type="text" class="form-control" id="project-mota" />
-                        <label for="" class="form-label">Công nghệ</label>
-                        <input type="text" class="form-control" id="project-congnghe" />
-                        <label for="" class="form-label">Ngày thêm</label>
-                        <input type="text" class="form-control" id="project-date" />
-                        <label for="" class="form-label">Tác giả</label>
-                        <input type="text" class="form-control" id="project-tacgia" />
-                        <label for="" class="form-label">Đường đẫn</label>
-                        <input type="text" class="form-control" id="project-link" />
-                        <label for="usr"> Allbum ảnh:</label>
-                        <input type="file" multiple class="form-control-file border" id="product-images">
+                        <label for="" class="form-label">ID danh mục</label>
+                        <input type="text" class="form-control" id="project-id" />
+                         <label for="usr">Ảnh đại diện:</label>
+      <input type="file" multiple class="form-control-file border" id="product-images">
                     </div>
                     <button class="btn btn-primary m-2">Thêm</button>
                 </form>
     </div>`;
 };
 
-export default AdminAddCatePage;
+export default AdminAddProjectPage;

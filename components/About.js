@@ -1,8 +1,9 @@
-
+import { useEffect, useState } from "../lib";
 
 const About = () => {
-    return `
-  <div class="section" id="about">
+
+  return `
+    <div class="section" id="about">
   <div class="container">
     <div class="card" data-aos="fade-up" data-aos-offset="10">
       <div class="row">

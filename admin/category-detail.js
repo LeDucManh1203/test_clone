@@ -21,16 +21,14 @@ const DetailCategoryPage = ({ id }) => {
                               <p>${item.mota}</p> 
                             </div>
                               
-                            <div class="container">
-                              <h4>Ảnh đại diện: </h4>
+                            <div class="container " >
+                              <h4>Ảnh đại diện: </h4> <p class"text-center" style= "width : 1000px">${ProjectGallery({imgs: item.avatar,})}</p>
                               <h4>Ngày tạo: </h4> <p>${item.ngaytao}</p>
                               <h4>Công nghệ:</h4> <p>${item.congnghe}</p>
                               <h4>Tác giả:</h4> <p>${item.tacgia}</p>
-                              <h4>Liên kết:</h4> <p style="width: 300px">
+                              <h4>Liên kết:</h4> <p style="width: 1000px; margin: 20px;" class="">
                               ${ProjectGallery({
-                              imgs: item.gallrey,
-        })}</p>
-                              <h4>Allbum sản phẩm:</h4> <p >${item.gallrey}</p>
+                              imgs: item.gallery,})}</p>
                             </div>
                 `
       )

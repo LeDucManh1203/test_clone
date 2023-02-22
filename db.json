@@ -1,134 +1,87 @@
 {
-  "Projects": [
-    {
-      "id": 1,
-      "tenProjects": "Bán đồ điện tử",
-      "mota": "Dự án bàng đồ điện tử , được xây dựng bởi những người yêu thương đồ điện tử",
-      "congnghe": "mySQL, PHP, HTML, CSS, JS",
-      "ngaytao": "2020-12-12",
-      "tacgia": "Le Manh",
-      "lienket": "link o day"
-    },
-    {
-      "id": 2,
-      "tenProjects": "Bán đồ thể thao",
-      "mota": "Dự án bàng đồ điện tử , được xây dựng bởi những người yêu đồ thể thao",
-      "congnghe": "mySQL, PHP, HTML, CSS, JS",
-      "ngaytao": "2020-12-12",
-      "tacgia": "Le Manh",
-      "lienket": "link o day"
-    },
-    {
-      "name": "hi nam",
-      "gallrey": [
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831031/ECMA/is7nx0m0uxlulmxtvx0s.jpg",
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831032/ECMA/o8tso7vpd8kguqy4epui.jpg",
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831034/ECMA/i5ahhlmugtrpmxvyyrd1.jpg"
-      ],
-      "id": 3
-    },
-    {
-      "name": "dự án 10",
-      "id": 4
-    },
-    {
-      "name": "dự án mẫu",
-      "gallrey": [],
-      "id": 5
-    },
-    {
-      "name": "hi nam mạnh",
-      "gallrey": [
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831366/ECMA/nxngej33ttzqg4h4fbbu.jpg",
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831369/ECMA/ejbdzu4iul1s1ejp17t5.jpg",
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831372/ECMA/qwehak9b4lc4unhtlymp.jpg"
-      ],
-      "id": 6
-    },
-    {
-      "name": "dự án lê mạnh",
-      "mota": "mô tả ",
-      "congnghe": "mô tả ",
-      "ngaytao": "12-1-2022",
-      "gallrey": [
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676861850/ECMA/hhrr7eee8xdxaawmekut.jpg",
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676861851/ECMA/f4levytiyhgpeeskipkg.jpg",
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676861854/ECMA/judjrlmb5xcnyjtkqnhz.png"
-      ],
-      "id": 7 ,
-      "categoryProjectId": 2
-      
-    }
-  ],
   "projects": [
     {
+      "avatar": [
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676974732/ECMA/duanmau_dhxyiw.jpg"
+      ],
       "name": "Dự án bán đồ điện tử",
       "mota": "Dự án được xây dựng từ khi tôi còn ngồi trên nghế nhà trường, là dự án đầu tiên tôi được bắt tay vào làm. Dự án này là một website hoàn chỉnh và đầy đủ các chức năng và hoàn thiện với mức độ hoàn chỉnh. <br> website được tạo ra để bán đồ dùng điện tử và cũng để cửa hàng kiểm soát sản phẩm của mình dễ hơn thông qua phần chức năng quản trị.",
       "congnghe": "mySQL, PHP, HTML, CSS,",
       "ngaytao": "2021-12-12",
       "tacgia": "Le Manh",
       "lienket": "link o day",
-      "gallrey": [
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831366/ECMA/nxngej33ttzqg4h4fbbu.jpg",
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831369/ECMA/ejbdzu4iul1s1ejp17t5.jpg",
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831372/ECMA/qwehak9b4lc4unhtlymp.jpg"
+      "gallery": [
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033485/ECMA/w39pskon8oxxnypnk5lh.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033487/ECMA/t17rbwu6cdwgjtq5jsr9.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033488/ECMA/hunqzd1g3vqmysd8ytwo.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033489/ECMA/l5njznijoujq7plt2ktb.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033490/ECMA/a82t4coounwkhr1fnnu0.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033491/ECMA/p39ww9c1qmry0gcejvja.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033492/ECMA/xz8bowgzzovnmbutt73h.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033495/ECMA/isyly5sgsfp0dqxxei2a.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033496/ECMA/ihv234owgn0a70pylegt.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033497/ECMA/llfokthrvcwmftehym2f.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033499/ECMA/izb820ipofsnreegx9sm.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033500/ECMA/nmseuvgz9qrva8exmay3.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033502/ECMA/fpktptodrozvs2fbofjl.jpg"
       ],
-      "id": 2,
+      "id": 1,
       "categoryProjectId": 1
     },
     {
+      "avatar": [
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676974587/duan1_lk62q9.jpg"
+      ],
       "name": "Dự án bán đồ thể thao",
       "mota": "Dự án gần đây nhất của tôi, nó được xây dựng để bán các sản phẩm liên quan đến thể thao. Website đã hoàn thiện đầy đủ chức năng hoàn chỉnh nhất",
       "congnghe": "mySQL, PHP, HTML, CSS, JS, Bootstrap",
       "ngaytao": "20202-10-22",
       "tacgia": "Le Manh, Nguyen Quy",
       "lienket": "link o day",
-      "id": 3,
+      "gallery": [
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033921/ECMA/dnih6c0ggl2b3uifptj2.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033926/ECMA/ydbynbismg5tsimi7ure.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033935/ECMA/qjwicwgcvo2rd11dcl2k.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033944/ECMA/uebuslmc0625mahhpolh.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033965/ECMA/sk4ibexjvpq073qk4zna.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677033984/ECMA/v2dwcy2uavftvraszii6.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677034030/ECMA/t7eueolkfoely2oozyb8.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677034051/ECMA/i3g986equrqnoosup3b9.jpg",
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1677034065/ECMA/rjbusgy1k1iorgurjs0p.jpg"
+      ],
+      "id": 2,
       "categoryProjectId": 2
-    },
-    {
-      "name": "dự án 10",
-      "id": 4
-    },
-    {
-      "name": "dự án mẫu",
-      "gallrey": [],
-      "id": 5
-    },
-    {
-      "name": "hi nam mạnh",
-      "gallrey": [
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831366/ECMA/nxngej33ttzqg4h4fbbu.jpg",
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831369/ECMA/ejbdzu4iul1s1ejp17t5.jpg",
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676831372/ECMA/qwehak9b4lc4unhtlymp.jpg"
-      ],
-      "id": 6
-    },
-    {
-      "name": "dự án lê mạnh",
-      "mota": "mô tả ",
-      "congnghe": "mô tả ",
-      "ngaytao": "12-1-2022",
-      "gallrey": [
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676861850/ECMA/hhrr7eee8xdxaawmekut.jpg",
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676861851/ECMA/f4levytiyhgpeeskipkg.jpg",
-        "https://res.cloudinary.com/dto9oatct/image/upload/v1676861854/ECMA/judjrlmb5xcnyjtkqnhz.png"
-      ],
-      "categoryProjectId": 3
     }
   ],
   "categoryProjects": [
     {
       "id": 1,
-      "name": "Dự án bán đồ điện tử"
+      "name": "Dự án bán đồ điện tử",
+      "gallery": [
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676974732/ECMA/duanmau_dhxyiw.jpg"
+      ]
     },
     {
       "id": 2,
-      "name": "Dự án bán đồ thể thao"
+      "name": "Dự án bán đồ thể thao",
+      "gallery": [
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676974587/duan1_lk62q9.jpg"
+      ]
     },
     {
       "id": 3,
-      "name": "Dự án bán đồ thể áo"
+      "name": "Dự án bán đồ thể thao",
+      "gallery": [
+        "https://res.cloudinary.com/dto9oatct/image/upload/v1676974587/duan1_lk62q9.jpg"
+      ]
     }
-  ]
+  ],
+  "profile": {
+    "ABOUT": "Xin chào. Tên tôi là Lê Đức Mạnh. Tôi là một lập trình viên Font-End.Tôi có niềm đam mê với máy tính từ khi còn là học sinh. Vậy nên tôi đã lựa chọn ngành lập trình là bước đi chính trong tương lai của mình. Ước mơ của tôi được nung nấu tại ngôi người Cao Đẳng FPT, ngoài học trên trường tôi còn tìm hiểu các khóa học bên ngoài như F8, Udemy ... để phát triển kỹ năng.",
+    "AGE": 20,
+    "EMAIL": "manhldph26283@fpt.edu.vn",
+    "PHONE": "0395888415",
+    " ADDRESS": " Chu Phan - Mê Linh - Hà Nội",
+    "LANGUAGE": "Tiếng việt, Tiếng Anh ( cơ bản )"
+  }
 }
